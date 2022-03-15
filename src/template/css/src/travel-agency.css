@@ -8,7 +8,7 @@
 }
 
 .travel-agency__content {
-    /* padding: 20px 0; */
+    padding: 20px 0;
     flex: 1 1 34%;
 }
 .travel-agency__content-wr {
@@ -59,24 +59,19 @@
 .travel-agency__figure {
     flex: 1 1 66%;
     position: relative;
-    border: solid 1px var(--base-darked2);
     border-radius: 0 6px 6px 0;
-    margin-right: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--base-darked2);
+    padding: 20px 20px 20px 0;
 }
-.travel-agency__figure-wr {
-    position: absolute;
-    top: -20px;
-    left: 0;
-    right: -20px;
-    bottom: -20px;
-    z-index: -1;
-}
-
-.travel-agency__img {
-    border-radius: 0 6px 6px 0;
-    overflow: hidden;
+.travel-agency__figure:after {
+    content: '';
     display: block;
-    width: 100%;
+    border: solid 1px var(--base-darked2);
+    border-left: none;
+    border-radius: 0 6px 6px 0;
     height: 100%;
-    object-fit: cover;
+    overflow: hidden;
 }
