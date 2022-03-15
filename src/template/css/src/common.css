@@ -1,0 +1,240 @@
+:root {
+    --font: #3E4E5E;
+    --base: #EAF9FC;
+    --base-darked: #D6F3F9;
+    --base-darked2: #24BDDB;
+    --base-darked3: #00A3C3;
+    --primary: #FFC845;
+
+
+    --font-family: 'Open Sans', Arial sans-serif;
+}
+
+/* open-sans-300 - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v28-latin_cyrillic-300.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/open-sans-v28-latin_cyrillic-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/open-sans-v28-latin_cyrillic-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/open-sans-v28-latin_cyrillic-300.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v28-latin_cyrillic-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/open-sans-v28-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/open-sans-v28-latin_cyrillic-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/open-sans-v28-latin_cyrillic-regular.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v28-latin_cyrillic-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/open-sans-v28-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/open-sans-v28-latin_cyrillic-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/open-sans-v28-latin_cyrillic-700.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+/* open-sans-italic - latin_cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v28-latin_cyrillic-italic.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/open-sans-v28-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/open-sans-v28-latin_cyrillic-italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/open-sans-v28-latin_cyrillic-italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/open-sans-v28-latin_cyrillic-italic.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', Arial sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--font);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* a:visited,
+ a:hover*/
+a {
+    color: var(--font);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+
+.main {
+    flex: 1 1 auto;
+}
+
+.content {}
+
+
+.container {
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: calc(100% - 24px);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+/* .row>* {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+} */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.rounded {
+    border-radius: 6px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+
+img.float-right {
+    margin: 0 0 1em 1em;
+}
+
+
+
+.bg-base {
+    background-color: var(--base);
+}
+
+.bg-base-darked {
+    background-color: var(--base-darked);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.color-base {
+    color: var(--base);
+}
+
+.color-base-darked {
+    color: var(--base-darked);
+}
+
+
+
+
+
+
+.display-desctop {
+    display: none;
+}
+
+.display-mobile {
+    display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+    .display-desctop {
+        display: block;
+    }
+
+    .display-mobile {
+        display: none;
+    }
+}
+
+
+.section {
+    margin-bottom: 30px;
+}

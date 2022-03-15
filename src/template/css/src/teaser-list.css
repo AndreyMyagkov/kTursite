@@ -1,0 +1,71 @@
+.teaser-list {}
+
+.teaser-list__list {}
+
+.teaser-list__item {}
+
+.teaser-list-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.teaser-list-item__figure {}
+
+.teaser-list-item__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1.525;
+}
+
+.teaser-list-item__main {
+    flex: 1;
+}
+
+.teaser-list-item__header {
+    background: #F4F4F4;
+    padding: 10px;
+}
+
+.teaser-list-item__stars {}
+.teaser-list-item__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.35em;
+}
+
+.teaser-list-item__properties {
+    background-color: var(--base);
+    padding: 15PX 10px;
+}
+
+.teaser-list-item__property {
+    margin-bottom: 5px;
+}
+
+.teaser-list-item__footer {
+
+}
+
+.teaser-list-item__price {
+    background: #F4F4F4;
+    padding: 16px 10px 17px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.35em;
+    color: var(--base-darked2);
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.teaser-list-item__price-label {}
+
+.teaser-list-item__price-value {}
+
+.teaser-list-item__more {
+    border-radius: 0;
+}
