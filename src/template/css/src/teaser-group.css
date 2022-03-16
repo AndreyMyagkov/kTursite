@@ -1,0 +1,117 @@
+.teaser-group {
+    padding: 50px 0;
+}
+
+.teaser-group__wr {
+    background-color: var(--base);
+    border-radius: 6px;
+}
+
+.teaser-group__row {
+    display: flex;
+}
+
+.teaser-group__content {
+    padding: 20px 30px 20px 20px;
+    flex: 1 1 27%;
+}
+
+.teaser-group__header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.37em;
+    margin-bottom: 20px;
+}
+.teaser-group__text {
+    font-size: 20px;
+    line-height: 1.37em;
+}
+
+.teaser-group__slider {
+    flex: 1 1 73%;
+    position: relative;
+}
+
+.teaser-group__list {
+    position: relative;
+    top: -50px;
+    height: calc(100% + 100px);
+}
+
+.teaser-group__item {
+    border-radius: 4px;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.teaser-group__item:hover {
+    text-decoration: none;
+}
+
+.teaser-group-item {}
+
+.teaser-group-item__figure {
+
+}
+
+.teaser-group-item__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.teaser-group-item__overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.teaser-group-item__duration {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--base-darked2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 16px;
+}
+.teaser-group-item__duration div {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.teaser-group-item__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teaser-group-item__date {
+    font-size: 18px;
+    line-height: 1.375em;
+    text-align: center;
+}
+
+.teaser-group-item__footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.teaser-group  .splide__track {
+    height: 100%;
+}

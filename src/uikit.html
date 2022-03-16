@@ -1,0 +1,514 @@
+<!--#set var="title" value="Home" -->
+<!--#include virtual="/parts/header.html" -->
+    
+<main class="main">
+
+    <section class="ui-kit__section">
+        <div class="container">
+            <h1 class="ui-kit__h1">UI-Kit</h1>
+            <h2 class="ui-kit__h2">Colors</h2>
+
+            <div class="row" style="gap: 20px">
+                <div class="col-2 ui-kit__color bg-1">#EAF9FC<br>base</div>
+                <div class="col-2 ui-kit__color bg-2">#D6F3F9<br>base-darked</div>
+                <div class="col-2 ui-kit__color bg-3">#24BDDB<br>base-darked2</div>
+                <div class="col-2 ui-kit__color bg-4">#00A3C3<br>base-darked3</div>
+
+                <div class="col-2 ui-kit__color bg-5">#3E4E5E<br>font</div>
+                
+
+                <div class="col-2 ui-kit__color bg-6">#FFC845<br>primary</div>
+                <div class="col-2 ui-kit__color bg-7">#ecb638<br>primary-darked</div>
+               
+            </div>
+        </div>
+        <style>
+            .ui-kit__section {
+                padding: 50px 0;
+                line-height: 1.5;
+            }
+            .ui-kit__h1 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+            .ui-kit__h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+                text-align: center;
+                
+            }
+            .ui-kit__color {
+                padding: 12px;
+                color: #999;
+                margin-bottom: 20px;
+                flex: 1 16.66%;
+                width: auto;
+                text-align: center;
+            }
+            .bg-1 {
+                background-color: var(--base);
+            }
+            .bg-2 {
+            background-color: var(--base-darked);
+            }
+            .bg-3 {
+                background-color: var(--base-darked2);
+            }
+            .bg-4 {
+                background-color: var(--base-darked3);
+            }
+            .bg-5 {
+                background-color: var(--font);
+            }
+            .bg-6 {
+                background-color: var(--primary);
+            }
+            .bg-7 {
+            background-color: var(--primary-darked);
+            }
+
+            .ui-kit__label {
+                color:#666;
+                margin-bottom: 2px;
+            }
+            .ui-kit__stars {
+                margin-bottom: 20px;
+            }
+            .ui-kit__stars {
+                font-size: 1.5em;
+            }
+        </style>
+    </section>
+
+
+
+
+    <section class="ui-kit__section">
+        <div class="container">
+            <div class="ui-kit__h2">Buttons</div>
+        
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    
+                    <button class="btn btn-primary">Primary</button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-secondary">Secondary</button>
+                </div>
+                <div class="col-12 col-md-4">
+                   <button class="btn btn-outline-primary">Primary outline</button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-outline-secondary">Secondary outline</button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-outline-light">Light outline</button>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-primary btn-rounded">Primary rounded</button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-secondary btn-rounded">Secondary rounded</button>
+                </div>
+                <div class="col-12 col-md-4">
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-primary btn-icon">
+                        <span>Button icon</span>
+                        <svg class="icon" width="14" height="14">
+                            <use xlink:href="#plane"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-secondary btn-icon">
+                        <span>Button icon</span>
+                        <svg class="icon" width="14" height="14">
+                            <use xlink:href="#plane"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="col-12 col-md-4">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-primary btn-icon btn-block">
+                        <span>Button block</span>
+                        <svg class="icon" width="14" height="14">
+                            <use xlink:href="#plane"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button class="btn btn-secondary btn-icon  btn-block">
+                        <span>Button block</span>
+                        <svg class="icon" width="14" height="14">
+                            <use xlink:href="#plane"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="col-12 col-md-4">
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="ui-kit__section">
+        <div class="container">
+            <div class="ui-kit__h2">Формы</div>
+
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" class="form-control" placeholder="form-control">
+                </div>
+
+                <br>
+                <div class="col-12">
+                    <input type="text" class="form-control form-control-primary" placeholder="form-control-primary">
+                </div>
+            </div>
+
+             <div class="col-12 col-md-4">
+                 <label class="custom-control">Select</label>
+                 <select class="form-control">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                 </select>
+             </div>
+
+             <div class="col-12 col-md-4">
+                 <label class="custom-control">Textarea</label>
+                 <textarea class="form-control"></textarea>
+             </div>
+
+             <div class="row">
+                 <div class="col-12 col-md-4">
+                     <label class="custom-control">
+                         <input type="checkbox" value="1" name="confirm" class="custom-control__input">
+                         <span class="custom-control__checkbox"></span>
+                         <span class="custom-control__label">
+                             I confirm this review is about my own genuine experience. I am eligible to leave this review,
+                             and have
+                             not been offered any incentive or payment to leave a review for this company.
+                         </span>
+                     </label>
+                 </div>
+                
+                 <div class="col-12 col-md-4">
+                     <label class="custom-control">
+                         <input type="radio" value="1" name="confirm2" class="custom-control__input">
+                         <span class="custom-control__radio"></span>
+                         <span class="custom-control__label">
+                             Variant 1
+                         </span>
+                     </label>
+                     <br>
+                     <label class="custom-control">
+                         <input type="radio" value="2" name="confirm2" class="custom-control__input">
+                         <span class="custom-control__radio"></span>
+                         <span class="custom-control__label">
+                             Variant 2
+                         </span>
+                     </label>
+                 </div>
+                 <div class="col-12 col-md-4">
+
+                 </div>
+             </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="ui-kit__section">
+        <div class="container">
+            <div class="row-">
+                <div class="ui-kit__h2">Typography</div>
+
+               
+                <div class="u-content wr">
+                    <h1>Heading 1 + P</h1>
+                    <p>
+                        Pellentesque habitant morbi <b>tristique senectus et netus</b>
+                        et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec <i>eu libero sit amet</i>
+                        quam egestas semper. Aenean <sub>ultricies</sub>
+                        mi vitae est. Mauris <sup>placerat</sup>
+                        eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum,
+                        <a href="http://google.com/test">elit eget tincidunt condimentum</a>, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+                    <p>
+                        <img src="http://dummyimage.com/1200x800/aaaaaa/fff.png" style="float:left" width="300" height="200">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+                    <p>
+                        <img src="http://dummyimage.com/1200x800/aaaaaa/fff.png" style="float:right" width="300" height="200">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <p>
+                        <img src="http://dummyimage.com/1200x800/aaaaaa/fff.png"></p>
+
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <h2>Heading 2 + P</h2>
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <h3>Heading 3 + P</h3>
+
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <h4>Heading 4 + P</h4>
+
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <h5>Heading 5 + P</h5>
+
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <h6>Heading 6 + P</h6>
+
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>
+                            Aliquam tincidunt mauris eu risus. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                        </li>
+                        <li>
+                            Vestibulum auctor dapibus neque.
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>
+                                    Vestibulum auctor dapibus neque. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>Vestibulum auctor dapibus neque.</li>
+                            </ul>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>
+                            Aliquam tincidunt mauris eu risus. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>
+                                    Vestibulum auctor dapibus neque. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>Vestibulum auctor dapibus neque.</li>
+                            </ol>
+                        </li>
+                        <li>Vestibulum auctor dapibus neque.</li>
+                    </ul>
+
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>
+                            Aliquam tincidunt mauris eu risus. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                        </li>
+                        <li>
+                            Vestibulum auctor dapibus neque.
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>
+                                    Vestibulum auctor dapibus neque. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>Vestibulum auctor dapibus neque.</li>
+                            </ol>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>
+                            Aliquam tincidunt mauris eu risus. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                        </li>
+                        <li>
+                            Vestibulum auctor dapibus neque.
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>
+                                    Vestibulum auctor dapibus neque. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                <li>Aliquam tincidunt mauris eu risus.</li>
+                                <li>Vestibulum auctor dapibus neque.</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                    </p>
+
+                    <hr>
+
+                    <h2>Heading 2 + ul + h3</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Aliquam tincidunt mauris eu risus.</li>
+                        <li>Vestibulum auctor dapibus neque.
+                    </ul>
+
+                    <h3>Heading 3 + ul</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Aliquam tincidunt mauris eu risus.</li>
+                        <li>Vestibulum auctor dapibus neque.
+                    </ul>
+
+                    <h1>Heading 1 + Heading 2</h1>
+                    <h2>Heading 2 + Heading 3</h2>
+                    <h3>Heading 3 + Heading 4</h3>
+                    <h4>Heading 4 + Heading 5</h4>
+                    <h5>Heading 5 + Heading 6</h5>
+                    <h6>Heading 6</h6>
+
+                    <div class="accent">
+                        Important text fragment. Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra. Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra. Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra.
+                    </div>
+
+                    <blockquote>
+                        "Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra. Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra. Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra."
+                    </blockquote>
+
+                    <!-- Table -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Column&nbsp;1</th>
+                                <th>Column&nbsp;2</th>
+                                <th>Column&nbsp;3</th>
+                                <th>Column&nbsp;4</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Some Content</td>
+                                <td>
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                                </td>
+                                <td>
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                                </td>
+                                <td>
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Some Content</td>
+                                <td>Some Content</td>
+                                <td>Some Content</td>
+                                <td>Some Content</td>
+                            </tr>
+                            <tr>
+                                <td>Some Content</td>
+                                <td>Some Content</td>
+                                <td>Some Content</td>
+                                <td>Some Content</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+
+
+                    <p>Responsive Table without border</p>
+                    <div class="table-responsive">
+                        <table border="0" cellspacing="10">
+                            <tr>
+                                <td style="text-align: left;"><img src="http://dummyimage.com/300x200/aaaaaa/fff.png" width="300" height="200"></td>
+                                <td style="text-align: center;">
+                                    <img src="http://dummyimage.com/300x200/bbbbbb/fff.png" width="300" height="200">
+                                </td>
+                                <td style="text-align: center;">
+                                    <img src="http://dummyimage.com/300x200/cccccc/fff.png" width="300" height="200">
+                                </td>
+                                <td style="text-align: center;">
+                                    <img src="http://dummyimage.com/300x200/dddddd/fff.png" width="300" height="200">
+                                </td>
+                                <td style="text-align: right;">
+                                    <img src="http://dummyimage.com/300x200/eeeeee/fff.png" width="300" height="200">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">Lorem ipsum Exercitation ullamco pariatur sed id ad consectetur eiusmod irure enim aliquip qui amet sit Ut exercitation sed sint id pariatur.</td>
+                                <td style="text-align: center;">Lorem ipsum Exercitation ullamco pariatur sed id ad consectetur eiusmod irure enim aliquip qui amet sit Ut exercitation sed sint id pariatur.</td>
+                                <td style="text-align: center;">Lorem ipsum Exercitation ullamco pariatur sed id ad consectetur eiusmod irure enim aliquip qui amet sit Ut exercitation sed sint id pariatur.</td>
+                                <td style="text-align: center;">Lorem ipsum Exercitation ullamco pariatur sed id ad consectetur eiusmod irure enim aliquip qui amet sit Ut exercitation sed sint id pariatur.</td>
+                                <td style="text-align: center;">Lorem ipsum Exercitation ullamco pariatur sed id ad consectetur eiusmod irure enim aliquip qui amet sit Ut exercitation sed sint id pariatur.</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+</main>
+
+<style>
+    .col-6 {
+        flex: 1 1 50%;
+        max-width: 50%;
+        margin-bottom: 12px;
+    }
+    .col-12 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 12px;
+    }
+    .ui-kit__section {
+        background-color: #fff;
+    }
+</style>
+
+<!--#include virtual="/parts/footer.html" -->

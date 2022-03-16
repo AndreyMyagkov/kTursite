@@ -147,7 +147,9 @@
     display: block;
 }
 
-
+.gallery-slider .is-active {
+ 
+}
 
 .blog-header {
     background-color: var(--base);

@@ -1,23 +1,31 @@
 @import "reset.css";
+@import "bootstrap-grid.css";
 
 @import "common.css";
 /* @import "header.css"; */
+
 @import "breadcrumbs.css";
 
 @import "typografy.css";
 
-/* @import "form.css"; */
+@import "form.css";
 
 
 /* Pages */
-@import "blog-list.css";
 @import "index.css";
+
+/* Components */
+@import "blog-list.css";
 
 @import "news-list.css";
 @import "team-list.css";
 @import "teaser-list.css";
 @import "recommendations.css";
 @import "travel-agency.css";
+@import "teaser-group.css";
+
+@import "splide.min.css";
+
 
 /*@import "404.css";*/
 /* @import "pagination.css"; */
