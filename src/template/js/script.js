@@ -17,7 +17,18 @@ document.querySelectorAll('.js-slider-group').forEach(item => {
         type: 'loop',
         perPage: 3,
         pagination: false,
-        gap: '20px'
+        gap: '20px',
+        breakpoints: {
+            768: {
+                perPage: 2,
+                pagination: false
+            },
+            480: {
+                perPage: 1,
+                pagination: true,
+                arrows: false
+            },
+        }
     }).mount();
 })
 
@@ -29,7 +40,23 @@ document.querySelectorAll('.js-slider-teaser').forEach(item => {
         type: 'loop',
         perPage: 4,
         pagination: false,
-        gap: '20px'
+        gap: '20px',
+        breakpoints: {
+            1024: {
+                perPage: 3,
+                pagination: false
+            },
+            767: {
+                perPage: 2,
+                pagination: true,
+                arrows: false
+            },
+            480: {
+                perPage: 1,
+                pagination: true,
+                arrows: false
+            },
+        }
     }).mount();
 })
 
@@ -41,7 +68,19 @@ document.querySelectorAll('.js-slider-news').forEach(item => {
         type: 'loop',
         perPage: 3,
         pagination: false,
-        gap: '20px'
+        gap: '20px',
+        breakpoints: {
+            767: {
+                perPage: 2,
+                pagination: true,
+                arrows: false
+            },
+            480: {
+                perPage: 1,
+                pagination: true,
+                arrows: false
+            },
+        }
     }).mount();
 })
 
@@ -55,7 +94,20 @@ document.querySelectorAll('.js-slider-gallery').forEach(item => {
         pagination: false,
         gap: '20px',
         focus: 'center',
-        padding: '200'
+        padding: '200',
+        breakpoints: {
+            767: {
+                perPage: 2,
+                pagination: true,
+                arrows: false,
+                padding: 0,
+            },
+            650: {
+                perPage: 1,
+                pagination: true,
+                arrows: false
+            },
+        }
     }).mount();
 })
 
@@ -68,6 +120,18 @@ document.querySelectorAll('.js-slider-blog').forEach(item => {
         perPage: 3,
         pagination: false,
         gap: '20px',
+        breakpoints: {
+            900: {
+                perPage: 2,
+                pagination: true,
+                arrows: false
+            },
+            650: {
+                perPage: 1,
+                pagination: true,
+                arrows: false
+            },
+        }
         
     }).mount();
 })

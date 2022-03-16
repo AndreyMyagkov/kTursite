@@ -34,14 +34,14 @@
     max-width: calc(100% - 24px);
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1328px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1146px;
+    max-width: 1304px;
   }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1146px;
+    max-width: 1304px;
   }
 }
 .row {

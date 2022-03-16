@@ -115,3 +115,38 @@
 .teaser-group  .splide__track {
     height: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+    .teaser-group__header {
+        font-size: 24px;
+    }
+    .teaser-group__text {
+        font-size: 18px;
+    }
+    .teaser-group-item__title {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .teaser-group {
+        padding: 0;
+    }
+    .teaser-group__wr {
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .teaser-group__row {
+        display: block;
+    }
+    .teaser-group__content {
+        text-align: center;
+    }
+    .teaser-group__list {
+        top: 0;
+        height: auto;
+    }
+    .teaser-group__item {
+        min-height: 300px;
+    }
+}
