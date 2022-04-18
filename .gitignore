@@ -1,4 +1,3 @@
-
 /node_modules/
 /.idea/
 /.git/
@@ -11,4 +10,3 @@
 /src/template/*.map
 /docs/
 todo.txt
-
