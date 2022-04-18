@@ -2,7 +2,7 @@
 @import "bootstrap-grid.css";
 
 @import "common.css";
-/* @import "header.css"; */
+@import "header.css";
 
 @import "breadcrumbs.css";
 
