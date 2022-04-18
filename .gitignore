@@ -9,5 +9,6 @@
 /src/**/*.map
 
 /src/template/*.map
+/docs/
 todo.txt
 
